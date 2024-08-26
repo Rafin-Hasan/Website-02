@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavberComponent.css";
+import { IoCallOutline } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
 
 const NavberComponent = () => {
@@ -19,13 +20,28 @@ const NavberComponent = () => {
             About
           </NavLink>
           <NavLink to="#" className="NavText">
-            About
+            Blog&News
           </NavLink>
           <NavLink to="#" className="NavText">
-            About
+            Contact
           </NavLink>
         </div>
-        <div></div>
+        <div className=" flex ">
+          <div className="pt-5">
+            <NavLink to="#" className="NavText">
+              Account
+            </NavLink>
+          </div>
+          <div className="px-[31px] text-[#DAD8D8] pt-5">l</div>
+          <div className="flex gap-[6px]">
+            <div className="text-[#B00000] pt-5">
+              <IoCallOutline />
+            </div>
+            <div className="NavText">
+              <h5>+2349067322844</h5>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
