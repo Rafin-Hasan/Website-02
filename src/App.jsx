@@ -6,14 +6,14 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import LayoutOne from "./layout/LayoutOne";
-import HomePage from "./Pages/HomePage";
+import HostingPage from "./Pages/HostingPage";
 
 function App() {
   const route = createBrowserRouter(
     createRoutesFromElements(
       <Route>
         <Route path="/" element={<LayoutOne />}>
-          <Route index element={<HomePage />} />
+          <Route index element={<HostingPage />} />
         </Route>
       </Route>
     )

@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 const NavberComponent = () => {
   return (
     <>
-      <div className="container flex justify-between mt-[41px]">
+      <nav className="container flex justify-between mt-[41px]">
         <div className="flex ">
           <div className="">
             <img src="./img/Logo.png" alt="Logo" />
@@ -42,7 +42,7 @@ const NavberComponent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

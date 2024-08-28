@@ -1,7 +1,7 @@
 import React from "react";
 import HomeComponent from "../Components/Home/HomeComponent";
 
-const HomePage = () => {
+const HostingPage = () => {
   return (
     <>
       <HomeComponent />
@@ -9,4 +9,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HostingPage;
