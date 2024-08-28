@@ -1,0 +1,15 @@
+.font {
+  font-family: "Poppins", sans-serif;
+}
+.font2 {
+  font-family: "Inter", sans-serif;
+}
+.plan {
+  background: rgb(252, 31, 2);
+  transition: all linear 0.2s;
+}
+.plan:hover {
+  border: 2px solid #000;
+  color: #000;
+  background: #fff;
+}
