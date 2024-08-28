@@ -5,7 +5,7 @@
   font-family: "Inter", sans-serif;
 }
 .plan {
-  background: rgb(252, 31, 2);
+  background: #b00000;
   transition: all linear 0.2s;
 }
 .plan:hover {

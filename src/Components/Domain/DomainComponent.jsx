@@ -202,7 +202,7 @@ const DomainComponent = () => {
 
         {/* Standard Plan */}
         <div
-          className="border rounded-[15px] p-8 bg-white shadow-lg transform hover:-translate-y-2 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+          className="border rounded-[15px] p-8 bg-white shadow-lg transform hover:translate-y-2 transition-all duration-300 hover:scale-125 hover:shadow-2xl"
           data-aos="fade-down-right"
         >
           <h3 className="text-[28px] font-semibold mb-3">

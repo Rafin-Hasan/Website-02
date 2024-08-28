@@ -6,7 +6,33 @@
   padding-top: 20px;
 }
 
-/* ============= Fonts ============== */
-/* ============= Fonts ============== */
-/* ============= Fonts ============== */
-/* ============= Fonts ============== */
+/* ============= responsive ============== */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .NavText {
+    font-size: 16px;
+  }
+}
+
+.navbar {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .NavText2 {
+    font-size: 15px;
+  }
+}
