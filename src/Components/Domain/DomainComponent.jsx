@@ -29,7 +29,7 @@ const DomainComponent = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-8 min-h-screen mt-[133px]">
+    <div className="flex flex-col items-center justify-center p-8 min-h-screen mt-[133px] mb-[105px]">
       <h1
         className="text-[50px] font-semibold leading-[60px] text-center mb-4 font w-[650px] "
         data-aos="fade-down"
