@@ -16,19 +16,112 @@ const SeoComponent = () => {
           </div>
         </div>
         <div className="flex pb-[64px]">
-          <div className="w-[350px] h-[468px] absolute top-[248px] left-[254px] shadow-md rounded-lg">
-            d
-          </div>
-          <div>
-            <div className="w-[445px] h-[340px] absolute top-[104px] right-[115px] shadow-md rounded-lg ">
-              a
+          {/* ====================== CLI ========================= */}
+          <div
+            className="w-[350px] h-[468px] absolute top-[248px] left-[254px] shadow-md rounded-lg"
+            data-aos="flip-left"
+          >
+            <img className="pl-16" src="./img/cli.png" alt="cli" />
+            <div className="px-8 flex gap-4">
+              <div>
+                <img
+                  className="w-[16px] h-[14px]"
+                  src="./img/Quote.png"
+                  alt="quote"
+                />
+              </div>
+              <div className="w-[254px]">
+                <p className="inter font-normal text-[16px] leading-8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis, lectus magna
+                  fringilla urna, porttitor rhoncus dolor purus non enim
+                  praesent elem
+                </p>
+              </div>
             </div>
-            <div className="w-[350px] h-[276px] absolute top-[476px] right-[210px] shadow-md rounded-lg">
-              v
+            <div className="pt-6 pl-16">
+              <h6 className="inter font-bold text-[18px] leading-7">
+                Floyd Miles
+              </h6>
+              <p className="inter font-normal text-[14px] leading-6">
+                Vice President, CLI
+              </p>
+            </div>
+          </div>
+
+          {/* ================= jpnl ========================= */}
+          <div>
+            <div
+              className="w-[445px] h-[340px] absolute top-[104px] right-[115px] shadow-md rounded-lg "
+              data-aos="flip-right"
+            >
+              <img
+                className="pl-16 pt-[39px]"
+                src="./img/jpnl1.png"
+                alt="jpnl"
+              />
+              <div className="px-8 flex gap-4 pt-[15px]">
+                <div>
+                  <img
+                    className="w-[16px] h-[14px]"
+                    src="./img/Quote.png"
+                    alt="quote"
+                  />
+                </div>
+                <div className="w-[349px]">
+                  <p className="inter font-normal text-[16px] leading-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                    aliquam, purus sit amet luctus venenatis, lectus magna
+                    fringilla urna, porttitor rhoncus dolor purus non enim
+                    praesent elem
+                  </p>
+                </div>
+              </div>
+              <div className="pt-6 pl-16">
+                <h6 className="inter font-bold text-[18px] leading-7">
+                  Jane Cooper
+                </h6>
+                <p className="inter font-normal text-[14px] leading-6">
+                  CEO, JPNL
+                </p>
+              </div>
+            </div>
+
+            {/* ============================ Brand ==================== */}
+            <div
+              className="w-[350px] h-[276px] absolute top-[476px] right-[210px] shadow-md rounded-lg"
+              data-aos="flip-up"
+            >
+              <img
+                className="pl-[55px] pt-[41px]"
+                src="./img/brand.png"
+                alt="brand"
+              />
+              <div className="flex gap-4 px-8">
+                <img
+                  className="w-[16px] h-[14px]"
+                  src="./img/Quote.png"
+                  alt="quote"
+                />
+                <div className="w-[254px]">
+                  <p className="inter font-normal text-[16px] leading-8">
+                    LemonWares saved our time in Hosting my company page.
+                  </p>
+                </div>
+              </div>
+              <div className="pt-6 pl-16">
+                <h6 className="inter font-bold text-[18px] leading-7">
+                  Kristin Watson
+                </h6>
+                <p className="inter font-normal text-[14px] leading-6">
+                  Co-Founder, LeeveOn Branding
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="container mt-[553px]">
         <div
           className="flex justify-between"
